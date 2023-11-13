@@ -104,6 +104,9 @@ img {
   padding: 50px;
 }
 
+.subtitle {
+  width: auto !important;
+}
 /* Styling - media icons */
 .icons {
   align-items: center;
@@ -879,6 +882,8 @@ button:active {
 }
 
 @media (max-width: 700px) {
+
+
 
   .hamburger {
     display: block;
