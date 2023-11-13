@@ -1,0 +1,924 @@
+/* General styling */
+body {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #9FE0DA;
+}
+
+.logo {
+  height: 110px;
+}
+
+.title {
+  height: 80px;
+  padding-right: 100px;
+}
+
+.logo-container {
+  background-color: #9FE0DA;
+}
+
+/*----download button-----*/
+.bn45 {
+  width: 150px;
+  height: 70px;
+}
+
+.bn46 {
+  width: 150px;
+  height: 65px;
+}
+
+.nav-list {
+  text-align: right;
+}
+
+.nav-list li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+.footer-info {
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+.social-link {
+  padding-bottom: 17px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling - magnifying glass icon */
+.fa-magnifying-glass {
+  color: black;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+/*Styling - branding*/
+.branding {
+  padding: 50px;
+}
+
+/* Styling - media icons */
+.icons {
+  align-items: center;
+  justify-items: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 30%;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #9FE0DA;
+  color: black;
+}
+
+.fa-twitter {
+  background: #9FE0DA;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #9FE0DA;
+  color: black;
+}
+
+.fa-instagram {
+  background: #9FE0DA;
+  color: black;
+}
+
+.contact-info-box {
+  grid-column: 1 / span 2;
+  margin-right: 5px;
+  background-color: #9FE0DA;
+  border-radius: 20%;
+  text-align: center;
+  padding-top: 60px;
+}
+a {
+  text-decoration: none;
+}
+
+.info-center-box {
+  display: flex;
+  justify-content: center;
+
+}
+
+.info-center-inner {
+  text-align: left;
+}
+
+#search {
+  padding-top: 0;
+}
+
+/* Styling - request information form  */
+.container .text {
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  --webkit-background-clip: text;
+
+}
+
+.container form {
+  padding: 30px 0 0 0;
+}
+
+.container form .form-row {
+  display: flex;
+  margin: 32px 0;
+}
+
+form .form-row .input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+
+form .form-row .textarea {
+  height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~.textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+
+.input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.textarea label {
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+
+.input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.input-data input:focus~.underline:before,
+.input-data input:valid~.underline:before,
+.textarea textarea:focus~.underline:before,
+.textarea textarea:valid~.underline:before {
+  transform: scale(1);
+}
+
+.submit-btn .input-data {
+  overflow: hidden;
+  height: 45px !important;
+  width: 25% !important;
+}
+
+.submit-btn .input-data:hover .inner {
+  left: 0;
+}
+
+.submit-btn .input-data input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-nav-boxes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  display: none;
+}
+
+/* Hamburger styles */
+.hamburger {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+  transition: 0.4s;
+  float: right;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.chk-hamburger {
+  display: none;
+}
+
+/* Styling for buttons */
+button {
+  padding: 15px;
+  background-color: #545796;
+  color: white;
+  border: 0;
+  border-radius: 10px 10px !important;
+}
+
+button {
+  cursor: pointer;
+  animation-name: Animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+button:hover {
+  animation: hoverAnimation1 1s 0.3s infinite forwards, hoverAnimation2 2s ease-in-out infinite;
+}
+
+button:active {
+  animation-name: pressed;
+  animation: extraChallengeAnimation 5s 0.3s forwards, pressedAnimation1 2s 0.3s forwards, pressedAnimation2 2s ease-in-out;
+}
+
+.text-animation {
+  animation-name: Animation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Animation2 {
+  0%{
+    transform: scale(1.2);
+  }
+  40% {
+    color: black;
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+  100% {
+    color: red;
+    transform: scale(1);
+  }
+}
+
+@keyframes hoverAnimation1 {
+  40% {
+    background: black;
+  }
+
+  100% {
+    background: red;
+  }
+}
+
+@keyframes hoverAnimation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  40% {
+    transform: rotate(30deg);
+  }
+
+  80% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pressedAnimation1 {
+  0% {
+    border-radius: 5px;
+  }
+
+  25% {
+    border-radius: 10px;
+  }
+
+  50% {
+    border-radius: 5px;
+  }
+
+  75% {
+    border-radius: 10px;
+  }
+
+  100% {
+    border-radius: 5px;
+  }
+}
+
+@keyframes pressedAnimation2 {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  60% {
+    transform: translateX(10px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes Animation {
+  0% {
+    transform: scale(1.3);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes extraChallengeAnimation {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.about-info {
+  padding: 33px 3px 31px 15px;
+  width: 100%;
+  background-image: url("../images/aboutus-2-960_x_510.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Styling - Introduction section */
+.introduction-section {
+  background-image: url("../images/home-1-1920_x_1276.png");
+  background-position: center center;
+  background-size: cover;
+  margin: 80px;
+  padding-top: 10px;
+  padding-bottom: 200px;
+  border-radius: 50px 50px;
+}
+
+/* Styling - container within the introduction section */
+.introduction-section .container {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+/* Styling - h1 within the introduction section container */
+.introduction-section .container h1 {
+  color: black;
+  font-family: righteous;
+  padding-bottom: 10px;
+
+}
+
+/* Styling - paragraphs within the introduction section container */
+.introduction-section .container p {
+  color: black;
+  padding-bottom: 10px;
+  width: 450px;
+}
+
+/* Styling - about section */
+.about-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Styling - images within the about section */
+.about-section img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* Styling - h2 headings within the about section */
+.about-section h2 {
+  padding-bottom: 10px;
+  font-family: righteous;
+  display: inline-block;
+  width: 300px;
+}
+
+.about-section p {
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.material-symbols-outlined {
+  color: #CDAC8D;
+  background-color: #F5F3F1;
+  padding: 12px;
+  border-radius: 30px 30px;
+}
+
+.about-section h5 {
+  padding: 10px;
+  width: 300px;
+}
+
+
+/* Styling for the services section */
+.services-section {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+/* Styling - h2 headings within the services section */
+.services-section h2 {
+  padding-bottom: 10px;
+}
+
+/* Styling - service boxes */
+.se-box,
+.sfy-box,
+.sb-box,
+.sfmw-box {
+  display: block;
+}
+
+.campany-box,
+.quicklink-box,
+.legal-box {
+  display: block;
+}
+
+/* Styling - images within service boxes */
+.services-section img {
+  width: 100%;
+}
+
+/* Styling - h3 headings and paragraphs within service boxes */
+.services-section h3,
+.services-section p {
+  padding: 10px;
+}
+
+/* Additional styling - paragraphs within service boxes */
+.services-section p {
+  padding-top: 0;
+}
+
+/* Styling - buttons within service boxes */
+.services-section button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling - the Download APP section */
+.download-app {
+  background-color: #8C8BC6;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  padding: 52px 5px 52px 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+/* Styling - h3 headings, paragraphs and buttons within the download section */
+.download-section h3 {
+  font-family: righteous;
+}
+
+.download-section p {
+  font-weight: 100;
+}
+
+/* Additional styling - h3 headings and paragraphs within the download section */
+.download-section h3,
+.download-section p {
+  padding-bottom: 10px;
+}
+
+/* Media query - screen sizes between 760px and 1200px */
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+
+  /* Reduce font size - navigation menu items */
+  .nav-list {
+    font-size: 0.8rem;
+  }
+
+}
+
+/* Media query - screen sizes greater than 760px */
+@media screen and (min-width: 760px) {
+
+
+  .hamburger {
+    display: none;
+  }
+
+  .about-info {
+    padding: 147px 29px 125px 27px;
+  }
+
+  .about-info-box {
+    padding: 19px 101px 10px 95px;
+  }
+
+  .nav-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 10px;
+  }
+
+  /* Adjust size - logo container within the header */
+  .logo-container {
+    height: 98px;
+  }
+
+  /* Display - navigation menu items */
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Styling - individual navigation menu items with background color and padding */
+  .nav-list li {
+    /* background-color: #222; */
+    justify-content: space-evenly;
+    /* padding: 15px 30px; */
+    width: max-content;
+    margin: 1rem;
+  }
+
+  /* Adjust - search bar position within the header */
+  .nav-container .search-container {
+    margin-top: 26px;
+  }
+
+  /* Additional styling - the about section, specifying the width and margin of elements */
+  .about .flo {
+    width: 40vw;
+    margin-right: 1rem;
+  }
+
+  /* Additional styling - image containers, adjusting size and positioning */
+  .image-container {
+    width: 40%;
+    float: left;
+    padding-right: 1rem;
+  }
+
+  .second-title {
+    width: 50%;
+    float: left;
+    padding-right: 1rem;
+  }
+
+  .second-info {
+    width: 50%;
+    float: left;
+    padding-right: 1rem;
+  }
+
+  /* Clearing float - image containers */
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  /* Remove padding at the bottom of images within the image container */
+  .image-container img {
+    padding-bottom: 0;
+  }
+
+  /* Apply grid layout to service boxes section */
+  .service-boxes {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  /* Specify grid layout for individual service boxes within the service boxes section */
+  .se-box {
+    grid-column: 1 / span 3;
+    margin-right: 5px;
+  }
+
+  .sfy-box {
+    grid-column: 4 / span 3;
+    margin-left: 5px;
+  }
+
+  .sb-box {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+    margin-right: 5px;
+  }
+
+  .sfmw-box {
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 2;
+    /* margin-left: 3px;
+      margin-right: 3px; */
+  }
+
+  .footer-nav-boxes {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .footer-nav-section {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .campany-box {
+    grid-column: 1 / span 2;
+    margin-right: 5px;
+    padding-left: 200px;
+    text-align: left;
+  }
+
+  .quicklink-box {
+    grid-column: 3 / span 2;
+    margin-right: 5px;
+    text-align: center;
+  }
+
+  .legal-box {
+    grid-column: 5 / span 2;
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  /* Introduction section */
+  .aboutus-introduction-section {
+    background-image: url("../images/aboutus.png");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 280px;
+  }
+
+  /* Styling for the container within the introduction section */
+  .aboutus-introduction-section .container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  /* h1 within the introduction section container */
+  .aboutus-introduction-section .container h1 {
+    color: black;
+    font-family: righteous;
+    padding-bottom: 10px;
+  }
+
+  /* paragraphs within the introduction section container */
+  .aboutus-introduction-section .container p {
+    color: black;
+    padding-bottom: 10px;
+    width: 450px;
+  }
+
+  /* for contact us Page only */
+
+  /* Introduction section */
+  .contactus-introduction-section {
+    background-image: url("../images/contactus.png");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 350px;
+
+  }
+
+  /* Styling for the container within the introduction section */
+  .cotactus-introduction-section .container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  /* h1 within the introduction section container */
+  .contactus-introduction-section .container h1 {
+    color: black;
+    font-family: righteous;
+    padding-bottom: 10px;
+  }
+
+  /* paragraphs within the introduction section container */
+  .contactus-introduction-section .container p {
+    color: black;
+    padding-bottom: 10px;
+    width: 450px;
+  }
+
+  .contactus-section {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .contactus-box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .contact-info-box {
+    grid-column: 1 / span 2;
+    margin-right: 5px;
+    background-color: #9FE0DA;
+    border-radius: 20%;
+    text-align: center;
+  }
+
+  .contact-form-box {
+    grid-column: 3 / span 4;
+    margin-right: 5px;
+  }
+
+  .second-title {
+    font-family: righteous;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .second-info {
+    font-family: righteous;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .hamburger {
+    display: block;
+    /* Show hamburger on smaller screens */
+  }
+
+  .nav-menu {
+    display: none;
+    /* Hide the menu by default on smaller screens */
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  #hamburger:checked~.nav-menu {
+    display: block;
+  }
+
+  .container .text {
+    font-size: 30px;
+  }
+
+  .container form {
+    padding: 10px 0 0 0;
+  }
+
+  .container form .form-row {
+    display: block;
+  }
+
+  form .form-row .input-data {
+    margin: 35px 0 !important;
+  }
+}
+
+/*-----Google Map--------*/
+iframe {
+  width: 100%;
+  height: 500px;
+  margin: 0px 50px 0px 50px;
+  border-radius: 50px 50px;
+}
