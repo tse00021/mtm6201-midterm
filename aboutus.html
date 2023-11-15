@@ -24,22 +24,23 @@
 
 <body>
     <a href="#main">Skip to content &darr;</a>
-    <!-- header -->
+    
     <header>
         <div class="container nav-container">
-            <!-- Logo container -->
-            <div class="logo-container">
-                <a href="index.html"><img src="images/logo.png" alt="logo" class="logo">
-                    <label for="hamburger" class="hamburger">
+           
+            <div class="logo-container">  <!-- Logo container -->
+                <a href="index.html"><img src="images/logo.png" alt="logo" class="logo">    
+                    <label for="hamburger" class="hamburger"> <!------Hamburger---->
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
+                    <!--Title-->
                     <img style="width: 446px;" src="images/title.png" alt="title" class="title">
                 </a>
-            </div>
+            </div> <!-- close. logo-container -->
             <input class="chk-hamburger" type="checkbox" id="hamburger">
-            <!-- coding for Navigation menu -->
+            <!-- Navigation menu -->
             <nav role="navigation" class="nav-menu">
                 <ul class="nav-list" role="listbox">
                     <li><a href="index.html">Home</a></li>
@@ -54,17 +55,16 @@
                 <form id="search" action="index.html" method="post">
                     <label><i class="fa-solid fa-magnifying-glass"></i></label>
                 </form>
-            </div>
-        </div>
+            </div> <!-- close. search-container -->
+        </div> <!-- close. container nav-container -->
     </header>
 
     <main id="main">
-        <!-- Header section -->
+        <!-- About section -->
         <section id="home" class="aboutus-introduction-section">
             <div class="container"></div>
-        </section>
+        </section> <!-- close. aboutus-introduction-section -->
 
-        <!-- aboutus section -->
         <section id="aboutus" class="about-section">
             <div class="container clearfix">
 
@@ -74,83 +74,79 @@
                         <h3 class="branding">We love snowboarding and ore dedicated to offering high-quality equipment
                             and
                             accessories, ensuring riders of all skill levels hove the confidence to hit the slopes.</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </div> <!-- close. about-info -->
+                </div> <!-- close. about-info-box -->
+            </div> <!-- close. container clearfix -->
+        </section> <!-- close. about-section -->
 
         <!-- Service section -->
         <section id="services" class="container">
-            <div class="services-section">
-
-                <!-- Shopping boxes -->
-                <div class="service-boxes">
-                    <!-- box 1-->
-                    <div class="se-box">
+            <div class="services-section"> 
+                <div class="service-boxes"> <!-- Shopping boxes -->
+                    <div class="se-box"> 
                         <h3>Gear Up and Ride Today !</h3>
                         <p>Shop Now to Find Your Perfect Snowboard and packages Equipment. Discover Incredible
                             Destinations and Packages Tailored to Your Thrill-Seeking Spirit.</p>
                         <button>Our Product <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
-                    <!-- box 2 -->
+                    </div> <!-- close. se-box -->
+                    
                     <div class="sfy-box">
                         <picture>
                             <source srcset="images/gear-960_x_561.png" media="(min-width: 1080px)">
                             <source srcset="images/gear-320_x_187.png" media="(max-width: 430px)">
                             <img src="images/gear.png" alt="sfy">
                         </picture>
-                    </div>
-                    <!-- box 3 -->
+                    </div> <!-- close. sfy-box -->
+                     
                     <div class="sb-box">
                         <picture>
                             <source srcset="images/one-stop-960_x_567.png" media="(min-width: 1080px)">
                             <source srcset="images/one-stop-320_x_189.png" media="(max-width: 430px)">
                             <img src="images/one-stop.png" alt="sb">
                         </picture>
-                    </div>
-                    <!-- box 4 -->
-                    <div class="sfmw-box">
-
+                    </div> <!-- close. sb-box -->
+                    
+                    <div class="sfmw-box"> 
                         <h3>Your One-Stop Snowboard Shop!</h3>
                         <p>Where We bring You the Tools and Knowledge
                             to Ride with Professional Precision.</p>
                         <button>Our Service <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </div> <!-- close. sfmw-box -->
+                </div> <!-- close. service-box -->
+            </div> <!-- close. services-section -->
+        </section> <!-- close. container -->
 
         <!---Request Information Form----->
-        <section id="contactus" class="contactus-section"></section>
+        <section id="contactus" class="contactus-section">
         <div class="container">
             <div class="text">
                 Request Information
-            </div>
+            </div> <!-- close. text -->
             <form action="#">
                 <div class="form-row">
                     <div class="input-data">
                         <input type="text" required>
                         <div class="underline"></div>
                         <label for="">Name</label>
-                    </div>
+                    </div> <!-- close. input-data -->
                     <div class="input-data">
                         <input type="text" required>
                         <div class="underline"></div>
                         <label for="">Email</label>
-                    </div>
-                </div>
+                    </div> <!-- close. input-data -->
+                </div> <!-- close. form-row -->
                 <div class="form-row">
                     <div class="input-data">
                         <input type="text" required>
                         <div class="underline"></div>
                         <label for="">Subject</label>
-                    </div>
+                    </div> <!-- close. put-data -->
                     <div class="input-data">
                         <input type="text" required>
                         <div class="underline"></div>
                         <label for="">Phone</label>
-                    </div>
-                </div>
+                    </div> <!-- close. service-box -->
+                </div> <!-- close. form-row -->
                 <div class="form-row">
                     <div class="input-data textarea">
                         <textarea rows="8" cols="80" required></textarea>
@@ -158,12 +154,11 @@
                         <div class="underline"></div>
                         <label for="">Hello I am intrested in..</label>
                         <br />
-
-                    </div>
-                </div>
+                    </div> <!-- close. input-data textarea -->
+                </div> <!-- close. form-row -->
             </form>
-        </div>
-        </section>
+        </div> <!-- close. container -->
+        </section> <!-- close. contactus-section -->
     </main>
     <!-- footer section -->
     <footer>
@@ -176,37 +171,33 @@
                         Contact us <br>
                         Support <br>
                         Careers <br>
-                    </div>
+                    </div> <!-- close. campany-box -->
                     <div class="quicklink-box">
                         <h5>Quick Link</h5> <br>
                         Share Location <br>
                         Order Tracking <br>
                         Size Guide <br>
                         FAQs <br>
-                    </div>
+                    </div> <!-- close. quicklink-box -->
                     <div class="legal-box">
                         <h5>Legal</h5> <br>
                         Terms & Conditions <br>
                         Privacy Policy <br>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </div> <!-- close. legal-box -->
+                </div> <!-- close. footer-nav-boxes -->
+            </div> <!-- close. footer-nav-section -->
+        </section> <!-- close. container -->
 
-        <div class="container footer-info">
-            <!-- media icons -->
-            <div class="social-link">
+        <div class="container footer-info">   
+            <div class="social-link">  <!-- media icons -->
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>
-            </div>
-
-            <!-- copy right -->
-            <p>Copyrignt &copy;Snowboard Specialist</p>
-        </div>
+            </div> <!-- close. social-link -->
+            <p>Copyrignt &copy;Snowboard Specialist</p> <!-- copy right -->
+        </div> <!-- close. container footer-info -->
         <a href="#main">Skip to content &darr;</a>
     </footer>
 </body>
-
 </html>

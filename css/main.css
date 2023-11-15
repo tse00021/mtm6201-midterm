@@ -31,6 +31,7 @@ h5 {
   max-width: 1200px;
 }
 
+/*----header-----*/
 header {
   background-color: #9FE0DA;
 }
@@ -59,6 +60,7 @@ header {
   height: 65px;
 }
 
+/*----navigation-----*/
 .nav-list {
   text-align: right;
 }
@@ -92,14 +94,12 @@ img {
   height: auto;
 }
 
-/* Styling - magnifying glass icon */
 .fa-magnifying-glass {
   color: black;
   padding-top: 8px;
   padding-left: 25px;
 }
 
-/*Styling - branding*/
 .branding {
   padding: 50px;
 }
@@ -156,6 +156,7 @@ img {
   text-align: center;
   padding-top: 60px;
 }
+
 a {
   text-decoration: none;
 }
@@ -284,6 +285,7 @@ form .form-row .textarea {
   z-index: 2;
 }
 
+/* footer */
 .footer-nav-boxes {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -350,6 +352,7 @@ button:active {
   animation-timing-function: ease-in-out;
 }
 
+/*---  Animation  ----*/
 @keyframes Animation2 {
   0%{
     transform: scale(1.2);
@@ -464,6 +467,7 @@ button:active {
   }
 }
 
+/*---  About us  ----*/
 .about-info {
   padding: 33px 3px 31px 15px;
   width: 100%;
@@ -542,7 +546,6 @@ button:active {
   width: 300px;
 }
 
-
 /* Styling for the services section */
 .services-section {
   padding-top: 15px;
@@ -550,7 +553,6 @@ button:active {
   flex-direction: column;
   margin-bottom: 10px;
 }
-
 
 /* Styling - h2 headings within the services section */
 .services-section h2 {
@@ -881,9 +883,8 @@ button:active {
 
 }
 
+/*---  responsive  ----*/
 @media (max-width: 700px) {
-
-
 
   .hamburger {
     display: block;

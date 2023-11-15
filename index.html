@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <!--kit icons -->
+    <!-- kit icons -->
     <script src="https://kit.fontawesome.com/5f23fef3f2.js" crossorigin="anonymous"></script>
     <!-- Google icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,11 +24,10 @@
 
 <body>
     <a href="#main">Skip to content &darr;</a>
-    <!---header -->
+  
     <header>
         <div class="container nav-container">
-            <!-- Logo container -->
-            <div class="logo-container">
+            <div class="logo-container">  <!-- Logo container -->
                 <a href="index.html"><img src="images/logo.png" alt="logo" class="logo">
                     <label for="hamburger" class="hamburger">
                         <span></span>
@@ -37,31 +36,25 @@
                     </label>
                     <img style="width: 446px;" src="images/title.png" alt="title" class="title">
                 </a>
+            </div> <!-- close .logo-container -->
+            <input class="chk-hamburger" type="checkbox" id="hamburger"> <!-- Hmburge -->
 
-            </div>
-            <input class="chk-hamburger" type="checkbox" id="hamburger">
             <!-- Navigation menu -->
             <nav role="navigation" class="nav-menu">
-                <!-- <a href="images/logo.png"></a> -->
-                <!-- <label for="toggler"><i class="fa-solid fa-bars"></i></label>
-              <input type="checkbox" id="toggler" name="toggler"> -->
-                <!-- <div class="menu"> -->
                 <ul class="nav-list" role="listbox">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Project</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <!-- </div> -->
-            </nav>
-            <!-- Search -->
-            <div class="search-container">
+                </ul> <!--close .nav-list -->
+            </nav> <!-- close .nav-menu -->      
+            <div class="search-container"> <!-- Search  -->
                 <form id="search" action="index.html" method="post">
                     <label><i class="fa-solid fa-magnifying-glass"></i></label>
                 </form>
-            </div>
-        </div>
+            </div> <!-- close .search-container -->
+        </div> <!-- close .container nav-container-->
     </header>
 
     <main id="main">
@@ -77,10 +70,10 @@
                     Elevate Your Adventure with Us.
                 </p>
                 <button class="connect">Get Started <i class="fa-solid fa-caret-right"></i></button>
-            </div>
-        </section>
+            </div> <!-- close .container -->
+        </section> <!-- close .introduction-section -->
 
-        <!-- aboutus section -->
+        <!-- about section -->
         <section id="aboutus" class="about-section">
             <div class="container clearfix">
 
@@ -95,7 +88,7 @@
                     <b>01234S678</b> <br>
                     <b>Call Us Anytime</b> <br> <br>
                     <button class="connect">Order Now <i class="fa-solid fa-caret-right"></i></button>
-                </div>
+                </div> <!-- close .second-info -->
                 <!-- image container -->
                 <div class="image-container">
                     <picture>
@@ -103,9 +96,9 @@
                         <source srcset="images/about-us-480_x_514.png" media="(max-width: 430px)">
                         <img src="images/about-us.png" alt="about us">
                     </picture>
-                </div>
-            </div>
-        </section>
+                </div> <!-- close .image-container  -->
+            </div> <!-- close .container clearfix -->
+        </section> <!-- close .about-section -->
 
         <!--Service section -->
         <section id="services" class="container">
@@ -122,7 +115,7 @@
                         </picture>
                         <h3>Snowboard Equipment</h3>
                         <button>SHOP NOW <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
+                    </div> <!-- close .se-box -->
                     <!-- Snowboard for Youth -->
                     <div class="sfy-box">
                         <picture>
@@ -132,7 +125,7 @@
                         </picture>
                         <h3>Snowboard for Youth</h3>
                         <button>SHOP NOW <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
+                    </div> <!-- close .fy-box -->
                     <!-- Snowboard Binding -->
                     <div class="sb-box">
                         <picture>
@@ -142,7 +135,7 @@
                         </picture>
                         <h3>Snowboard Binding</h3>
                         <button>SHOP NOW <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
+                    </div> <!-- close .sb-box -->
                     <!-- Snowboard for Men and Women -->
                     <div class="sfmw-box">
                         <picture>
@@ -152,10 +145,11 @@
                         </picture>
                         <h3>Snowboard for Men and Women</h3>
                         <button>SHOP NOW <i class="fa-solid fa-caret-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </div> <!-- close .sfmw-box -->
+                </div> <!-- close .services-box -->
+            </div> <!-- close .services-section -->
+        </section> <!-- close .container -->
+
         <!-- Download APP section -->
         <section class="download-section">
             <div class="container">
@@ -170,10 +164,9 @@
                     <a href="/" tabIndex="0"><img class="bn45"
                             src="images/google-play-badge.png"
                             alt="bn45" /></a>
-                </div>
-
-            </div>
-        </section>
+                </div> <!-- close .download-app -->
+            </div> <!-- container -->
+        </section> <!-- close .download-section -->
     </main>
     <!-- footer section -->
     <footer>
@@ -186,23 +179,22 @@
                         Contact us <br>
                         Support <br>
                         Careers <br>
-                    </div>
+                    </div> <!-- close .campany-box -->
                     <div class="quicklink-box">
                         <h5>Quick Link</h5> <br>
                         Share Location <br>
                         Order Tracking <br>
                         Size Guide <br>
                         FAQs <br>
-                    </div>
+                    </div> <!-- close .quiclink-box -->
                     <div class="legal-box">
                         <h5>Legal</h5> <br>
                         Terms & Conditions <br>
                         Privacy Policy <br>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+                    </div> <!-- close .legal-box -->
+                </div> <!-- close .footer-nav-boxes -->
+            </div> <!-- close .foot-nav-section -->
+        </section> <!-- close .container -->
         <div class="container footer-info">
             <!-- media icons -->
             <div class="social-link">
@@ -210,11 +202,9 @@
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>
-            </div>
-
-            <!-- copy right -->
-            <p>Copyrignt &copy;Snowboard Specialist</p>
-        </div>
+            </div> <!-- close .social-link -->
+            <p>Copyrignt &copy;Snowboard Specialist</p>  <!-- copy right -->
+        </div> <!-- close .containerfooter-info -->
         <a href="#main">Skip to content &darr;</a>
     </footer>
 </body>
